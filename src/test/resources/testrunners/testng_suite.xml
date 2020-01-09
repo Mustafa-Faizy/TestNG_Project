@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Hub Spot Test Sanity Suite" verbose="3">
+
+<listeners>
+
+<listener class-name="utilities.ExtentReportListener" />
+
+</listeners>
+
+
+    <test name="hub spot Sanity Test">
+    
+      
+    <!-- <parameter name = "userName" value = "TEKSCHOOL"/>
+    <parameter name = "password" value = "SDET2020"/> -->
+    <parameter name = "url" value = "www.google.com"/>
+    <parameter name = "address" value = "Falls Church VA"/>
+    <parameter name = "date" value = "12/20/2019"/>
+    
+    
+        <classes>
+        
+        <!-- Structure:= <class name= "package.nameOfClass -->
+            
+           <!-- <class name="tests.LoginTest" />
+            <class name = "tests.TestNgBasics"/>
+            <class name = "tests.TestNGClassPractice"/>  
+            <class name = "tests.TestNGParametersPractice"/> --> 
+            <class name = "tests.TestEnvironment"/>
+            
+    </classes>
+    </test>
+</suite>
+
+
+
+
+
